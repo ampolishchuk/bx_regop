@@ -1,0 +1,50 @@
+.faq {
+	display: grid;
+	grid-gap: 30px;
+}
+
+.faq-list {
+	display: grid;
+	grid-gap: 30px;
+}
+
+.faq-item {
+	display: grid;
+	grid-gap: 15px;
+}
+.faq-title {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 20px 1fr 20px;
+	align-items: center;
+	cursor: pointer;
+}
+.faq-title:hover > .faq-question {
+	color: green;
+}
+.faq-question {
+	transition: .2s;
+}
+.faq-answer {
+	padding: 0 40px;
+}
+.faq-id {
+	font-size: 30px;
+	color: green;
+}
+.faq-icon {
+	width: 20px;
+	height: 20px;
+}
+.faq-icon.rotated {
+  transform: rotate(180deg);
+}
+.faq-showAll {    
+    text-decoration: none;
+    transition: .2s;
+    justify-self: end;
+}
+.faq-showAll:hover {
+    color: black;
+}
+

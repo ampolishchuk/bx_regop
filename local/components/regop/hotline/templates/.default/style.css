@@ -1,0 +1,19 @@
+.hotline {
+	position: relative;
+	display: grid;
+	grid-gap: 20px;
+	align-content: center;
+	justify-content: center;
+	background-size: cover;
+	height: 300px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+.hotline-text {
+	font-size: 22px;
+}
+.hotline-phone {
+	font-size: 30px;
+	font-weight: bold;
+}

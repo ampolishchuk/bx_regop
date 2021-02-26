@@ -1,0 +1,21 @@
+.contacts.contacts_header {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 40px;
+}
+
+.contacts_header .contacts-item {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 10px;
+	justify-content: start;
+	align-items: center;
+}
+.contacts_header .contacts-icon {
+	width: 24px;
+	height: 24px;
+}
+.contacts_header .contacts-text {
+	font-size: 18px;
+	white-space: nowrap;
+}

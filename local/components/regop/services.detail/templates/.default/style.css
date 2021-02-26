@@ -1,0 +1,27 @@
+.services-detail {
+	display: grid;
+	grid-gap: 30px;
+}
+
+.services-detail-files {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.services-detail-files-list {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.services-detail-file {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.services-detail-file-id {
+    font-size: 26px;
+    text-align: center;
+}

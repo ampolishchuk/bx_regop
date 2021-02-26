@@ -1,0 +1,17 @@
+.districts-list.districts-list_header {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.districts-list_header .districts-list-map {
+	display: grid;
+	justify-items: center;
+}
+.districts-list_header .districts-list-map > * {
+	height: 450px;
+}
+
+.districts-list_header .districts-list-items {
+	display: none;
+}

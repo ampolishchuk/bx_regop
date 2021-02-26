@@ -1,0 +1,32 @@
+.services-list {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 30px;
+	justify-content: space-between;
+}
+
+.services-item {
+	background-color: green;
+	background-image: url(images/service.png);
+	background-size: cover;
+	display: grid;
+	width: 300px;
+	grid-gap: 20px;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	justify-items: center;
+	transition: .2s;
+}
+.services-item:hover {
+	background-color: black;
+}
+.services-item-link {
+	color: #fff;
+	text-decoration: none;
+}
+.services-item-icon {
+	width: 50px;
+	height: 50px;
+}

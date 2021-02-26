@@ -1,0 +1,11 @@
+.contacts.contacts_footer {
+	display: grid;
+	grid-gap: 30px;
+}
+.contacts-item {
+	display: grid;
+	grid-gap: 5px;
+}
+.contacts-item-list {
+	display: grid;
+}

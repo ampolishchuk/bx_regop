@@ -1,0 +1,39 @@
+.pagination {
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.pagination-total {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.pagination-list {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.pagination-button {
+    display: inline-block;
+    padding: 3px 7px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    line-height: 20px;
+    color: black;
+    transition: .2s;
+    cursor: pointer;
+}
+.pagination-button:hover {
+    border-color: green;
+    color: green;
+}
+.pagination-button_selected {
+    padding: 5px 10px;
+    border-color: green;
+    color: green;
+    font-weight: bold;
+}

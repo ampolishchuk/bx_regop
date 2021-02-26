@@ -1,0 +1,12 @@
+.files.files_footer {
+}
+
+.files_footer .files-list {
+	display: grid;
+	grid-gap: 10px;
+    grid-auto-flow: column;
+}
+.files_footer .files-item {
+    display: block;
+    white-space: nowrap;
+}

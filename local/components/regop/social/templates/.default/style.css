@@ -1,0 +1,13 @@
+.socials {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	align-content: center;
+	justify-content: start;
+}
+.socials-item,
+.socials-icon {
+	display: block;
+	width: 35px;
+	height: 35px;
+}

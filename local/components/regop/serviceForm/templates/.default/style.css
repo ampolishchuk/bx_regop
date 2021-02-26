@@ -1,0 +1,55 @@
+.serviceForm {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 30px;
+    width: 600px;
+}
+.serviceForm-description {
+    text-align: justify;
+}
+.serviceForm-complete {
+    color: green; 
+    text-align: justify;
+    font-weight: bold; 
+}
+.serviceForm-form {
+    display: grid;
+    grid-gap: 30px;   
+}
+.serviceForm-group {
+    display: grid;
+    grid-gap: 15px;
+}
+.serviceForm-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+.serviceForm-req {
+    color:red;
+    margin-left: 5px;
+}
+.serviceForm-captcha {
+    display: grid;
+    grid-gap: 10px;
+}
+.serviceForm-button {
+	padding: 7px 15px;
+	background-color: green;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: .2s;
+	white-space: nowrap;
+    justify-self: end;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.serviceForm-button:hover {
+	color: #fff;
+	background-color: black;
+}

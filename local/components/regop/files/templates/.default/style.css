@@ -1,0 +1,22 @@
+.files {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.files-list {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.files-item {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.files-id {
+    font-size: 26px;
+    text-align: center;
+}

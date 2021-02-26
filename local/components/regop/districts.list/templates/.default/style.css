@@ -1,0 +1,24 @@
+.districts-list {
+	display: grid;
+	grid-template-columns: auto 400px;
+	grid-gap: 40px;
+	align-items: center;
+}
+
+.districts-list-items {
+	display: grid;
+	grid-gap: 10px;
+}
+.districts-list-item {
+	color: black;
+	padding: 2px 2px 0;
+	border-bottom: 2px solid white;
+	text-decoration: none;
+	justify-self: start;
+	text-transform: uppercase;
+	transition: .2s;
+}
+.districts-list-item.hover,
+.districts-list-item:hover {
+	border-color: green;
+}

@@ -1,0 +1,17 @@
+.menu.menu_footer {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 30px;
+	grid-row-gap: 10px;
+	justify-items: start;
+}
+
+.menu_footer .menu-link {
+	color: black;
+	text-decoration: none;
+}
+.menu_footer .menu-link:hover {
+	color: green;
+	text-decoration: none;
+}
+

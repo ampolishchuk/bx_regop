@@ -1,0 +1,25 @@
+.imageLeft {
+	margin:0 20px 20px 0;
+	/*border:1px solid #603838;*/
+	padding:5px
+}
+
+.imageRight {
+	margin:0 0 20px 20px;
+	/*border:1px solid #603838;*/
+	padding:5px
+}
+
+.imageCenter {
+	margin:20px;
+	/*border:1px solid #603838;*/
+	padding:5px
+}
+
+.imageResponsive {
+	max-width:100%;
+}
+
+#bx-panel {
+        z-index: 999!important;
+}
